@@ -1,0 +1,38 @@
+{
+  "name": "Repository",
+  "version": "1.0.0",
+  "description": "Reflex's Repository pattern",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "node test",
+    "start": "node run Server/Program"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rflxio/repo.git"
+  },
+  "keywords": [
+    "Reflex",
+    "repository",
+    "repo"
+  ],
+  "author": "Denis Yaremov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rflxio/repo/issues"
+  },
+  "homepage": "https://github.com/rflxio/repo#readme",
+  "dependencies": {
+    "command-line-args": "^3.0.1",
+    "systemjs": "^0.19.37",
+    "systemjs-plugin-json": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.38",
+    "@types/systemjs": "^0.19.30",
+    "@types/jasmine": "https://github.com/lu4/types-jasmine#master",
+    "jasmine": "^2.5.0",
+    "typescript": "^2.0.2",
+    "jasmine-console-reporter": "^1.2.7"
+  }
+}
